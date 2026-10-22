@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kevser Nur Çerezci | Kişisel Sayfa</title>
+
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #713653;
+      background: linear-gradient(135deg, #fff0f6, #ffe0ef, #fce7ff);
+    }
+
+    header {
+      padding: 55px 20px;
+      text-align: center;
+      color: white;
+      background: linear-gradient(120deg, #ff4f9a, #ff85b5, #c084fc);
+      border-bottom: 8px dotted #ffd6e7;
+    }
+
+    h1 { margin: 0 0 12px; font-size: 38px; }
+    header p { margin: 0; font-size: 17px; }
+
+    main { width: min(850px, 92%); margin: 30px auto; }
+
+    section {
+      margin: 22px 0;
+      padding: 24px;
+      background: #fff;
+      border: 2px solid #ffc1dc;
+      border-radius: 20px;
+      box-shadow: 0 8px 22px #e94e9b25;
+    }
+
+    h2 {
+      margin-top: 0;
+      color: #e84393;
+      border-bottom: 3px dashed #ffc1dc;
+      padding-bottom: 9px;
+    }
+
+    table { width: 100%; border-collapse: collapse; }
+    th, td { padding: 12px; text-align: left; }
+    th { color: white; background: #f45b9a; }
+    td { border-bottom: 1px solid #ffd6e7; }
+    tr:nth-child(even) { background: #fff1f7; }
+    tr:hover { background: #ffe1ef; }
+    .record-type { color: #bc3f82; font-weight: bold; }
+
+    footer { padding: 18px; text-align: center; color: #a34d75; }
+
+    @media (max-width: 600px) {
+      h1 { font-size: 29px; }
+      section { padding: 17px; }
+      th, td { padding: 8px; font-size: 13px; }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>🌸 Kevser Nur Çerezci 🌸</h1>
+    <p>🎓 Necmettin Erbakan Üniversitesi · Bilgisayar Mühendisliği · 3. Sınıf</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>💖 Hakkımda</h2>
+      <p>Merhaba! Bilgisayar mühendisliği öğrencisiyim. Bilgisayar ağları ve internet teknolojileri hakkında bilgi ediniyorum. ✨</p>
+    </section>
+
+    <section>
+      <h2>🌐 DNS Kayıtlarım</h2>
+      <table>
+        <tr><th>Tür</th><th>Ad</th><th>Değer</th></tr>
+        <tr><td class="record-type">NS</td><td>alanadiniz</td><td>Gerçek ad sunucusu</td></tr>
+        <tr><td class="record-type">A</td><td>@</td><td>Barındırma IP adresi</td></tr>
+        <tr><td class="record-type">CNAME</td><td>www</td><td>Barındırma hedefi</td></tr>
+        <tr><td class="record-type">MX</td><td>@</td><td>E-posta sağlayıcısının hedefi</td></tr>
+      </table>
+    </section>
+  </main>
+
+  <footer>💕 Bilgisayar Ağları Dersi Ödevi 💕</footer>
+</body>
+</html>
